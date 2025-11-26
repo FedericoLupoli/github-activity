@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "github-activity": "./index.js"
+    "github-activity": "./bin/index.js"
   },
   "type": "module",
   "scripts": {
@@ -14,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.6.2",
     "commander": "^14.0.2",
-    "express": "^5.1.0",
     "fs": "^0.0.1-security",
     "path": "^0.12.7"
   }
